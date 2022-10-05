@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:zasby/cordova-plugin-deeplinks.git"
+    "url": "git+ssh://git@github.com/zasby/cordova-plugin-deeplinks.git"
   },
   "keywords": [
     "cordova",
@@ -47,5 +47,9 @@
   },
   "scripts": {
     "release": "standard-version"
+  },
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
   }
 }
